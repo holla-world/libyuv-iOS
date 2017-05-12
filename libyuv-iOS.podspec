@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.platform     	= :ios, '6.0'
   s.description  	= "libyuv is an open source project that includes YUV scaling and conversion functionality."
 
-  s.public_header_files = 'libyuv-iOS/libyuv.h'
-  s.vendored_libraries  = 'libyuv-iOS/*.a'
+  s.public_header_files = 'headers/libyuv.h'
+  s.vendored_libraries  = 'lib/libyuv.a'
 
   s.requires_arc        = false
 
